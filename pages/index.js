@@ -1,14 +1,23 @@
 
 import Buildings from './buildings'
 import Layoutmenu from './layoutmenu'
+import Layoutfooter from './layoutfooter'
 
 export default function Home() {
+  
   return (
-    <div class='menu'>
-      <Layoutmenu></Layoutmenu>
-      <div>
-        <Buildings></Buildings>
-      </div>
-    </div>
-  )
+    <html>
+      <header>
+        <Layoutmenu></Layoutmenu>
+      </header>
+      <body>
+        <div>
+          <Buildings></Buildings>
+        </div>
+      </body>
+      <footer>
+          <Layoutfooter></Layoutfooter>
+      </footer>
+    </html>
+  );
 }
