@@ -40,5 +40,4 @@ const Buildings = () => {
     )
 }
 
-
 export default Buildings

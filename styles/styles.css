@@ -136,6 +136,7 @@ body {
 
 }
 
+
 .card:hover .card-content {
   opacity: 1;
   transition: 2s ;
