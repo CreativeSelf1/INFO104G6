@@ -8,7 +8,6 @@ import {
 /* https://diario.uach.cl/wp-content/uploads/2013/01/2553900.jpg */
 const Buildings = () => {
     return (
-        <body>
             <div class="Container_grid"> 
                 <SimpleGrid columns={3} spacing={4} spacingY="60px" justifyItems="center" paddingTop="100px" paddingBottom="50px">
                     <div class="card">
@@ -23,7 +22,7 @@ const Buildings = () => {
                         </Box>
                         <div class="card-content">
                             <div class="card-info"> 
-                                <h2> Edifico 10000 (Informatica)</h2>
+                                <h2> Edificio 10000 (Informatica)</h2>
                                 <a href='#'> Ver Mas </a>
                             </div>
                         </div>
@@ -40,7 +39,7 @@ const Buildings = () => {
                         </Box>
                         <div class="card-content">
                             <div class="card-info"> 
-                                <h2> Edifico 7000 </h2>
+                                <h2> Edificio 9000 </h2>
                                 <a href='#'> Ver Mas </a>
                             </div>
                         </div>
@@ -54,7 +53,6 @@ const Buildings = () => {
                     <Box className='card' boxSize='250px'></Box>
                 </SimpleGrid>
             </div>
-        </body>
     )
 }
 
