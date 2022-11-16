@@ -4,6 +4,8 @@ import {
     Image
 } from '@chakra-ui/react';
 
+
+/* https://diario.uach.cl/wp-content/uploads/2013/01/2553900.jpg */
 const Buildings = () => {
     return (
         <body>
@@ -26,7 +28,23 @@ const Buildings = () => {
                             </div>
                         </div>
                     </div>
-                    <Box className='card' boxSize='250px'></Box>
+                    <div class="card">
+                        <Box boxSize='250px'>
+                            <Image
+                                boxSize='250px'      
+                                height='250px'              
+                                objectFit='cover'
+                                objectPosition="center"
+                                src='https://diario.uach.cl/wp-content/uploads/2013/01/2553900.jpg'                  
+                            />
+                        </Box>
+                        <div class="card-content">
+                            <div class="card-info"> 
+                                <h2> Edifico 7000 </h2>
+                                <a href='#'> Ver Mas </a>
+                            </div>
+                        </div>
+                    </div>
                     <Box className='card' boxSize='250px'></Box>
                     <Box className='card' boxSize='250px'></Box>
                     <Box className='card' boxSize='250px'></Box>

@@ -1,7 +1,7 @@
 import { Button, ButtonGroup, Center, Flex, Heading, IconButton, Box, Image, Link, Spacer } from "@chakra-ui/react";
 import React, { useState } from "react";
 import { EmailIcon ,} from '@chakra-ui/icons'
-import { FiGithub } from "react-icons/Fi";
+import { FiGithub } from "react-icons/fi";
 const menuFooter = () => {
 
     return (

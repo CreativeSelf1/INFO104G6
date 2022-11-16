@@ -2,7 +2,7 @@ import { Button, ButtonGroup, Divider, Flex, Heading, IconButton, Box, Image, Li
 import React, { useState } from "react";
 
 import { EmailIcon ,} from '@chakra-ui/icons'
-import { FiGithub } from "react-icons/Fi";
+import { FiGithub } from "react-icons/fi";
 
 const BarraMenu = () => {
 
