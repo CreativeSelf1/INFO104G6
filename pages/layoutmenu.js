@@ -26,9 +26,9 @@ const BarraMenu = () => {
                 </ButtonGroup>
             </Flex>
 
-            <Divider orientation="vertical" marginLeft="290px" />
+            <Divider orientation="vertical" marginLeft="500px" />
 
-            <Link href="https://github.com/Lagartin1/INFO104G6" isExternal marginTop="30px" marginLeft="33px">
+            <Link href="https://github.com/CreativeSelf1/INFO104G6" isExternal marginTop="30px" marginLeft="33px">
                 <IconButton  background="none" icon={<FiGithub />}></IconButton>
             </Link>
         </Flex>
