@@ -86,6 +86,73 @@ body {
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
+/*
+* Estilo barra busqueda incio
+*/
+
+.Scontainer{
+  position: absolute;
+  left: 55%;
+  top: 1%;
+}
+.Scontainer input{
+  opacity: 0;
+  position:absolute;
+  outline: none;
+  box-sizing: border-box;
+  right: 0px;
+  width: 0;
+  height:50px;
+  padding: 0 20px;
+  color: rgb(0, 0, 0);;
+  border-radius: 50px;
+  font-size: 20px;
+  border:1px solid #155 ;
+  transition: all 0.6s ease;
+}
+.Scontainer .Sbuton{
+  position: absolute;
+  right:1px;
+  top: 0px;
+  width: 50px;
+  height: 50px;
+  background:linear-gradient(90deg, rgba(140,180,136,1) 35%, rgba(137,212,227,1) 100%);
+  border-radius:50px ;
+  cursor: pointer;
+}
+.Scontainer .Sbuton .Sicon{
+  opacity: 1;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+}
+.Scontainer .S2icon{
+  opacity: 0;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+}
+
+.Scontainer:hover input{
+  opacity: 1;
+  width: 300px;
+  transition: 1s;
+}
+.Scontainer:hover .Sicon{
+  opacity: 0;
+}
+.Scontainer:hover .S2icon{
+  opacity: 1;
+}
+.Scontainer:focus input{
+  opacity: 1;
+  width: 300px;
+}
+
+/*
+* Estilo barra busqueda final
+*/
+
 /* Inicio Grid y cards*/
 .grid {
   display: flex;
@@ -159,16 +226,10 @@ body {
   margin-left: 0.5rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  .footer {
-    border-color: #222;
-  }
-  .code {
-    background: #111;
-  }
-  .logo img {
-    filter: invert(1);
-  }
+#searchBar{
+  margin-left: 50rem;
+  margin-right: 50rem;
+  margin-top: 2rem;
 }
 
 #menuFooter{
@@ -177,7 +238,7 @@ body {
   margin-right: 0px;
   margin-left: 0px;
   border-radius: 10px;
-  background: linear-gradient(90deg, rgb(33, 26, 171) 0%, rgba(195,196,238,1) 0%, rgba(140,180,136,1) 35%, rgba(137,212,227,1) 100%);  
+  background: linear-gradient(90deg, rgb(31, 23, 170) 0%, rgba(195,196,238,1) 0%, rgba(140,180,136,1) 35%, rgba(137,212,227,1) 100%);  
 }
 
 #menuFooter #FooterButton{
