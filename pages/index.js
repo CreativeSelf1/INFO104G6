@@ -2,6 +2,7 @@
 import Buildings from './buildings'
 import Layoutmenu from './layoutmenu'
 import Layoutfooter from './layoutfooter'
+import MapUi from './mapUI'
 
 export default function Home() {
   
@@ -12,7 +13,8 @@ export default function Home() {
       </header>
       <body>
         <div>
-          <Buildings></Buildings>
+          <MapUi></MapUi>
+          {/* <Buildings></Buildings> */}
         </div>
       </body>
       <footer>
