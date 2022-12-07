@@ -16,7 +16,7 @@ const BarraMenu = () => {
 
             <Flex direction="row" padding="30px" paddingLeft="400px">
                 <ButtonGroup gap="20">
-                    <Link href="https://chakra-ui.com/" isExternal>
+                    <Link href="/buildings">
                         <Button background="none" >Salas</Button>
                     </Link>
                     <Link>
@@ -26,7 +26,7 @@ const BarraMenu = () => {
                 </ButtonGroup>
             </Flex>
 
-            <Divider orientation="vertical" marginLeft="500px" />
+            <Divider orientation="vertical" marginLeft="350px" />
 
             <Link href="https://github.com/CreativeSelf1/INFO104G6" isExternal marginTop="30px" marginLeft="33px">
                 <IconButton  background="none" icon={<FiGithub />}></IconButton>

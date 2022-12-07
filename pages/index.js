@@ -5,7 +5,7 @@ import Layoutfooter from '../components/layoutfooter'
 import MapUi from '../components/mapUI'
 import Page_map from './page_map'
 
-import Link from 'next/link'
+import { Link, Button } from '@chakra-ui/react'
 import Head from 'next/head'
 
 const Home = () => {
@@ -19,15 +19,8 @@ const Home = () => {
       </header>
 
       <main>
-        <Link 
-          className="test"
-          href={{
-            pathname: "/page_map",
-            query: { opt: 0 },
-          }}
-        >
-          
-        </Link>
+      Ver como likear paginas
+
       </main>
       <footer>
         <Layoutfooter></Layoutfooter>

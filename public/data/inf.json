@@ -1,36 +1,81 @@
 [
     {
+        "id": "14000",
+        "title": "Edificio 14K",
+        "salas":[""]
+    },
+    {
+        "id": "13000",
+        "title": "Edificio Industrial",
+        "salas":[""]
+    },
+    {
+        "id": "12000",
+        "title": "Biblioteca tecnológica",
+        "salas":[""]
+    },
+    {
+        "id": "11000",
+        "title": "Edificio obras civiles",
+        "salas":[""]
+    },
+    {
     "id": "10000",
-    "title": "Edificio 10000",
+    "title": "Edificio de informática",
     "salas":[""]
     },
     {  
         "id": "9000", 
-        "title": "Edificio 9000" 
+        "title": "Carlos Hunt Sharpe" 
     },
     { 
         "id": "8000",
-        "title": "Edificio 8000"
+        "title": "Eduardo Gonzáles Villa"
     },
     { 
         "id": "7000",
-        "title": "Edificio 7000" 
+        "title": "Edificio multimedia" 
     },
     { 
         "id": "6000",
-        "title": "Edificio 6000" ,
+        "title": "Joaquín Castellano de la Torre" ,
         "salas":["6301","6302","6303","6304","6305","6306","6307","6308","6309","6310"]
     },
     { 
         "id": "5000", 
-        "title": "Edificio 5000" 
+        "title": "Casa Haverbeck" 
     },
     { 
         "id": "4000",
-        "title": "Edificio 5000" 
+        "title": "Walter Heitmann Cords" 
+    },
+    { 
+        "id": "3000",
+        "title": "Luis Christen Adams" 
     },
     { 
         "id": "2000",
-        "title": "Edificio 5000" 
-    }
+        "title": "Inés Bischoff Von Stilfried" 
+    },
+    { 
+        "id": "1000",
+        "title": "Decanato" 
+    },
+    { 
+        "id": "900",
+        "title": "Radio UACh" 
+    },
+    { 
+        "id": "500",
+        "title": "Laboratorio CIVILAB Materiales" 
+    },
+    { 
+        "id": "200",
+        "title": "Edmundo Rodriguez Poirrier" 
+    },
+    { 
+        "id": "100",
+        "title": "Marcos Hiztler Sorensen" 
+    }   
+
 ]
