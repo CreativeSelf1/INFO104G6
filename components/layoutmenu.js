@@ -16,7 +16,7 @@ const BarraMenu = () => {
 
             <Flex direction="row" padding="30px" paddingLeft="400px">
                 <ButtonGroup gap="20">
-                    <Link href="/buildings">
+                    <Link href="/page_map">
                         <Button background="none" >Salas</Button>
                     </Link>
                     <Link>

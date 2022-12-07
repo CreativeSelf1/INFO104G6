@@ -16,7 +16,7 @@ export async function getServerSideProps(context) {
 
 export default function MapUI2({ data }) {
     return (
-        <div className="container">
+        <div className="Map">
             <MapUi></MapUi>
         </div>
     );
