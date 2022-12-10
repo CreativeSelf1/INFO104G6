@@ -93,7 +93,7 @@ body {
 .Scontainer{
   position: absolute;
   left: 55%;
-  top: 2%;
+  top: 10%;
 }
 .Scontainer input{
   opacity: 0;

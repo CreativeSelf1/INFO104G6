@@ -1,6 +1,5 @@
 import { Box, Flex } from "@chakra-ui/react";
 import {
-    Image,
     Accordion,
     AccordionItem,
     AccordionButton,
@@ -9,17 +8,11 @@ import {
 } from '@chakra-ui/react'
 
 
+import Image from "next/image";
 const MapUI = () => {
     return (
         <div class="mapUi">
-            <Flex>
-                <Box >
-                    <Image src='https://www.acusticauach.cl/wp-content/uploads/2012/10/Campus_Miraflores.jpg'
-                        paddingTop="70px"
-                        paddingBottom="150px"
-                        paddingLeft="70px"
-                    />
-                </Box>
+            <Flex px="-100px" py="-100px">
                 <Flex px="200px" py="100px">
                     <div>
                         <h2>Edificios</h2>

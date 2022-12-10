@@ -1,37 +1,51 @@
-import { Button, ButtonGroup, Divider, Flex, Heading, IconButton, Box, Image, Link, Spacer } from "@chakra-ui/react";
-import React, { useState } from "react";
-
-import { EmailIcon ,} from '@chakra-ui/icons'
+import { Button, 
+    ButtonGroup, 
+    Divider, 
+    Flex, 
+    IconButton, 
+    Box, 
+    Image, 
+    Link
+} from "@chakra-ui/react";
 import { FiGithub } from "react-icons/fi";
+import Layoutfooter from "./layoutfooter"
 
-const BarraMenu = () => {
+const Layout = ({ children, pageId }) => {
 
     return (
-        <Flex id="MenuBarra">
-            <Flex paddingLeft="80px" pt="10px">
-                <Box boxSize='150px' marginLeft="px">
-                    <Image src='https://www.uach.cl/uach/_file/logo_uach-614a369aa9528.png' blockSize="76%" paddingBottom="25px" />
-                </Box>
+        <div id="layout">
+            <Flex id="MenuBarra">
+                <Flex paddingLeft="80px" pt="10px">
+                    <Box boxSize='150px' marginLeft="px">
+                        <Image src='https://www.uach.cl/uach/_file/logo_uach-614a369aa9528.png' blockSize="76%" paddingBottom="25px" />
+                    </Box>
+                </Flex>
+                {/* Paginas mapa, edificios, salas */}
+                <Flex direction="row" padding="30px" paddingLeft="400px">
+                    <ButtonGroup gap="20">
+                        <Link href="/buildings">
+                            <Button background="none" >Edificios</Button>
+                        </Link>
+                        <Link href="/classroms">
+                            <Button background="none" >Salas</Button>
+                        </Link>
+                        <Link href="/page_map">
+                            <Button background="none" >Mapa</Button>
+                        </Link>
+                    </ButtonGroup>
+                </Flex>
+
+                <Divider orientation="vertical" marginLeft="350px" />
+                <Link href="https://github.com/CreativeSelf1/INFO104G6" isExternal marginTop="30px" marginLeft="33px">
+                    <IconButton background="none" icon={<FiGithub />}></IconButton>
+                </Link>
             </Flex>
 
-            <Flex direction="row" padding="30px" paddingLeft="400px">
-                <ButtonGroup gap="20">
-                    <Link href="/page_map">
-                        <Button background="none" >Salas</Button>
-                    </Link>
-                    <Link>
-                        <Button background="none" >Edificios</Button>
-                    </Link>
-                    <Button background="none" >Mapa</Button>
-                </ButtonGroup>
-            </Flex>
-
-            <Divider orientation="vertical" marginLeft="350px" />
-
-            <Link href="https://github.com/CreativeSelf1/INFO104G6" isExternal marginTop="30px" marginLeft="33px">
-                <IconButton  background="none" icon={<FiGithub />}></IconButton>
-            </Link>
-        </Flex>
+            <main>{children}</main>
+            <footer>
+                <Layoutfooter></Layoutfooter>
+            </footer>
+        </div>
     )
 }
-export default BarraMenu
+export default Layout

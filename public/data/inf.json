@@ -26,7 +26,8 @@
     },
     {  
         "id": "9000", 
-        "title": "Carlos Hunt Sharpe" 
+        "title": "Carlos Hunt Sharpe" ,
+        "salas":["9101","9102","9201","9202"]
     },
     { 
         "id": "8000",
