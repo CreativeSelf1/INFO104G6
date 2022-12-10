@@ -38,13 +38,21 @@ export default function buildings({ data }) {
                 <Head>
                     <title> Edificios </title>
                 </Head>
-            </div>
-            <div>
-                <SimpleGrid columns={3} spacing={4} spacingY="60px" justifyItems="center" paddingTop="100px" paddingBottom="50px">
-                    {data.map((item, index) => (
-                        <BuildingsList key={index} item={item} />
-                    ))}
-                </SimpleGrid>
+
+                <main>
+                    <SimpleGrid columns={3} spacing={4} spacingY="60px" justifyItems="center" paddingTop="100px" paddingBottom="50px">
+                        {data.map((item, index) => (
+                            <BuildingsList key={index} item={item} />
+                        ))}
+                    </SimpleGrid>
+                </main>
+                <div class="Scontainer">
+                    <input type="text" placeholder='Search..' />
+                    <div class="Sbuton">
+                        <Icon class="Sicon" as={RiSearch2Line} />
+                        <Icon class="S2icon" as={RiSearch2Fill} />
+                    </div>
+                </div>
             </div>
         </Layout>
     )

@@ -98,7 +98,7 @@ h1{
 .Scontainer{
   position: absolute;
   left: 55%;
-  top: 10%;
+  top: 130px;
 }
 .Scontainer input{
   opacity: 0;
