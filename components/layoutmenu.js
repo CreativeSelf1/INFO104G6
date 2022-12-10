@@ -10,10 +10,10 @@ import { Button,
 import { FiGithub } from "react-icons/fi";
 import Layoutfooter from "./layoutfooter"
 
-const Layout = ({ children, pageId }) => {
+const Layout = ({ children}) => {
 
     return (
-        <div id="layout">
+        <div>
             <Flex id="MenuBarra">
                 <Flex paddingLeft="80px" pt="10px">
                     <Box boxSize='150px' marginLeft="px">
@@ -27,7 +27,7 @@ const Layout = ({ children, pageId }) => {
                             <Button background="none" >Edificios</Button>
                         </Link>
                         <Link href="/classroms">
-                            <Button background="none" >Salas</Button>
+                            <Button className="btn1" background="none" >Salas</Button>
                         </Link>
                         <Link href="/page_map">
                             <Button background="none" >Mapa</Button>
