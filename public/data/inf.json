@@ -2,80 +2,112 @@
     {
         "id": "14000",
         "title": "Edificio 14K",
-        "salas":[""]
+        "salas":["9101","9102","9201","9202"],
+        "imagen":"https://www.publimark.cl/media/k2/items/cache/92abdc10118f9607062da89875f14aa3_XL.jpg"
     },
     {
-        "id": "13000",
+        "id": "13000",  
         "title": "Edificio Industrial",
-        "salas":[""]
+        "salas":["9101","9102","9201","9202"],
+        "imagen":"http://infraestructura.uach.cl/wp-content/uploads/2018/01/Edificio-Ingenieri%CC%81a-Civil.jpg"
     },
     {
         "id": "12000",
         "title": "Biblioteca tecnológica",
-        "salas":[""]
+        "salas":["9101","9102","9201","9202"],
+        "imagen":"http://infraestructura.uach.cl/wp-content/uploads/2017/12/Edificio-Biblioteca.jpg"
     },
     {
         "id": "11000",
         "title": "Edificio obras civiles",
-        "salas":[""]
+        "salas":["9101","9102","9201","9202"],
+        "imagen":"http://infraestructura.uach.cl/wp-content/uploads/2018/01/Edificio-Ingenieri%CC%81a-Civil-en-Obras-Civiles.jpg"
     },
     {
-    "id": "10000",
-    "title": "Edificio de informática",
-    "salas":[""]
+        "id": "10000",
+        "title": "Edificio de informática",
+        "salas":["9101","9102","9201","9202"],
+        "imagen":"https://diario.uach.cl/wp-content/uploads/2010/07/1825300.jpg"
     },
     {  
         "id": "9000", 
-        "title": "Carlos Hunt Sharpe" 
+        "title": "Carlos Hunt Sharpe" ,
+        "salas":["9101","9102","9201","9202"],
+        "imagen":"http://infraestructura.uach.cl/wp-content/uploads/2018/01/ingenieria110331_003-1.jpg"
+
     },
     { 
         "id": "8000",
-        "title": "Eduardo Gonzáles Villa"
+        "title": "Eduardo Gonzáles Villa",
+        "salas":["9101","9102","9201","9202"],
+        "imagen":"https://live.staticflickr.com/3417/3493353946_07154dbc4c_b.jpg"
     },
     { 
         "id": "7000",
-        "title": "Edificio multimedia" 
+        "title": "Edificio multimedia" ,
+        "salas":["9101","9102","9201","9202"],
+        "imagen":"http://informatica.uach.cl/wp-content/uploads/2020/05/7k.jpg"
     },
     { 
         "id": "6000",
         "title": "Joaquín Castellano de la Torre" ,
-        "salas":["6301","6302","6303","6304","6305","6306","6307","6308","6309","6310"]
+        "salas":["6301","6302","6303","6304","6305","6306","6307","6308","6309","6310"],
+        "imagen":"https://www.acusticauach.cl/wp-content/uploads/2012/10/Instituto-de-Acustica.jpg"
     },
     { 
         "id": "5000", 
-        "title": "Casa Haverbeck" 
+        "title": "Casa Haverbeck" ,
+        "salas":["9101","9102","9201","9202"],
+        "imagen":"https://scontent.fscl13-2.fna.fbcdn.net/v/t1.6435-9/101473884_3169587873099150_443037996980109312_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeEIGqRGR-spgHhCBDsBFpxbPVD6gEN-XRo9UPqAQ35dGoXVUa_sAm8thvxeH23ayWLIwszjFHnuS3z9fIux42YT&_nc_ohc=EzER6ITXMFgAX_Jz7_F&_nc_ht=scontent.fscl13-2.fna&oh=00_AfD4iLEP4zGAIhWqP5MZF9L6d9FkpF-g0lK8sEWg4XL19A&oe=63BC5209"
     },
     { 
         "id": "4000",
-        "title": "Walter Heitmann Cords" 
+        "title": "Walter Heitmann Cords" ,
+        "salas":["9101","9102","9201","9202"],
+        "imagen":"http://www.ingenieria.uach.cl/templates/yootheme/cache/edificio_4000_web-ac43934d.jpeg"
+
     },
     { 
         "id": "3000",
-        "title": "Luis Christen Adams" 
+        "title": "Luis Christen Adams" ,
+        "salas":["9101","9102","9201","9202"],
+        "imagen":"http://www.ingenieria.uach.cl/templates/yootheme/cache/Edificio-3000web-9f19a952.jpeg"
     },
     { 
         "id": "2000",
-        "title": "Inés Bischoff Von Stilfried" 
+        "title": "Inés Bischoff Von Stilfried" ,
+        "salas":["9101","9102","9201","9202"],
+        "imagen":"https://scontent.fscl13-1.fna.fbcdn.net/v/t1.6435-9/101213042_3168924196498851_3322311160853692416_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=19026a&_nc_eui2=AeFEgZlYMse7ndzo7Go8DrlwIVxBrUDuc94hXEGtQO5z3taeSthhn7Tjf7wRk6ZJ6k9-GvJhwI6G21IsmpKWsgMK&_nc_ohc=LXV2kR9SyqgAX8nziLL&_nc_ht=scontent.fscl13-1.fna&oh=00_AfDRVLGD_Y-FpMYM-22URx89yNCUQWk3Zp8lVegJybwkNQ&oe=63BC76EA"
     },
     { 
         "id": "1000",
-        "title": "Decanato" 
+        "title": "Decanato" ,
+        "salas":["9101","9102","9201","9202"],
+        "imagen":"http://www.ingenieria.uach.cl/templates/yootheme/cache/edificio_1000_web-5237966f.jpeg"
     },
     { 
         "id": "900",
-        "title": "Radio UACh" 
+        "title": "Radio UACh" ,
+        "salas":["9101","9102","9201","9202"],
+        "imagen":"http://vinculacion.uach.cl/images/12345radio.jpg"
     },
     { 
         "id": "500",
-        "title": "Laboratorio CIVILAB Materiales" 
+        "title": "Laboratorio CIVILAB Materiales" ,
+        "salas":["9101","9102","9201","9202"],
+        "imagen":"http://www.ingenieria.uach.cl/templates/yootheme/cache/LEMCOweb-4495da26.jpeg"
     },
     { 
         "id": "200",
-        "title": "Edmundo Rodriguez Poirrier" 
+        "title": "Edmundo Rodriguez Poirrier",
+        "salas":["9101","9102","9201","9202"],
+        "imagen":"http://www.ingenieria.uach.cl/templates/yootheme/cache/edificio_200_maquinas-71cdea9b.jpeg"
     },
     { 
         "id": "100",
-        "title": "Marcos Hiztler Sorensen" 
+        "title": "Marcos Hiztler Sorensen" ,
+        "salas":["9101","9102","9201","9202"],
+        "imagen":"http://www.ingenieria.uach.cl/templates/yootheme/cache/edificio_100_canal-47d9c31e.jpeg"
     }   
 
 ]

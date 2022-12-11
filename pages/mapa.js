@@ -18,7 +18,7 @@ const Mapa = () => {
             <LayoutMenu></LayoutMenu>
                 <Center marginTop='100px' marginLeft='-300px' marginBottom='100px'>
                     <Box className='containerI'>
-                        <Image src='\data\image\MAP.jpg' alt='mapa' borderRadius='2xl' align=''/>
+                        <Image src='\data\images\MAP.png' alt='mapa' borderRadius='2xl' align=''/>
                             <Button className='btn b100' size='xs'></Button>
                             <Button className='btn b200' size='xs'></Button>
                             <Button className='btn b500' size='xs'></Button>
@@ -44,7 +44,7 @@ const Mapa = () => {
                             <Button className='btn bAcustica' size='xs'></Button>
                             <Button className='btn bBiblioteca' size='xs'></Button>
 
-                            
+
                     </Box>
                 </Center>
             <LayoutFooter></LayoutFooter>

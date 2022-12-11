@@ -15,7 +15,8 @@
 }
 
 
-.ghost-button { display: inline-block; 
+.ghost-button { 
+  display: inline-block; 
   width: 200px; 
   padding: 8px; 
   color: #fff; 
@@ -130,7 +131,7 @@
 }
 .containerI .btn:hover {
   border: 2px solid black;
-  /* background-color: rgba(0,0,0,0); */
+  background-color: rgba(0,0,0,0);
 }
 
 .button-container{
@@ -155,6 +156,11 @@ body {
   font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
     'Arial', sans-serif;
   background-color: #111;
+}
+
+h1{
+  text-align: center;
+  padding-bottom: 10px;
 }
 .container {
   padding: 0 2rem;
@@ -240,7 +246,7 @@ body {
 .Scontainer{
   position: absolute;
   left: 55%;
-  top: 2%;
+  top: 130px;
 }
 .Scontainer input{
   opacity: 0;
@@ -393,4 +399,20 @@ body {
   margin-top: 35px;
   margin-left: 300px;
 
+}
+
+/* Contenerdor mapa y lista */
+.container2{
+  display: flex;
+}
+
+#map{
+  margin-right: 40px;
+}
+
+#list{
+  margin-top: 30px;
+  margin-left: 40px;
+  margin-bottom: 30px;
+  top: 100px;
 }
