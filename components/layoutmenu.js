@@ -19,14 +19,15 @@ const BarraMenu = () => {
                     <Link href="/page_map">
                         <Button background="none" >Salas</Button>
                     </Link>
-                    <Link>
-                        <Button background="none" >Edificios</Button>
+                    <Link href='/buildings'>
+                        <Button background="none">Edificios</Button>
                     </Link>
-                    <Button background="none" >Mapa</Button>
+                    <Link href='/mapa'>
+                        <Button background="none">Mapa</Button>
+                    </Link>
                 </ButtonGroup>
             </Flex>
 
-            <Divider orientation="vertical" marginLeft="350px" />
 
             <Link href="https://github.com/CreativeSelf1/INFO104G6" isExternal marginTop="30px" marginLeft="33px">
                 <IconButton  background="none" icon={<FiGithub />}></IconButton>

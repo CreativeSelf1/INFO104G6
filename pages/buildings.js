@@ -10,11 +10,14 @@ import{
     RiSearch2Line,
     RiSearch2Fill
 } from 'react-icons/ri';
+import LayoutMenu from '../components/layoutmenu'
+import LayoutFooter from '../components/layoutfooter'
 
 
 const Buildings = () => {
     return (
         <div class="Container_grid"> 
+            <LayoutMenu></LayoutMenu>
             <div class="Scontainer">
                 <input type="text" placeholder='Search..'/>
                 <div class="Sbuton">
@@ -65,6 +68,8 @@ const Buildings = () => {
                 <Box className='card' boxSize='250px'></Box>
                 <Box className='card' boxSize='250px'></Box>
             </SimpleGrid>
+            <LayoutFooter></LayoutFooter>
+
         </div>
     )
 }
