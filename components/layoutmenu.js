@@ -19,16 +19,15 @@ const Layout = ({ children}) => {
                     <Image src='https://www.uach.cl/uach/_file/logo_uach-614a369aa9528.png' blockSize="76%" paddingBottom="25px" />
                 </Box>
             </Flex>
-
             <Flex direction="row" padding="30px" paddingLeft="400px">
                 <ButtonGroup gap="20">
-                    <Link href="/page_map">
+                    <Link href="/classroms">
                         <Button background="none" >Salas</Button>
                     </Link>
                     <Link href="/buildings">
                         <Button background="none" >Edificios</Button>
                     </Link>
-                    <Link href="/mapa">
+                    <Link href="/page_map">
                         <Button background="none" >Mapa</Button>
                     </Link>
                 </ButtonGroup>

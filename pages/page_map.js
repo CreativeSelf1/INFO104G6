@@ -1,7 +1,7 @@
 import MapList from '../components/mapList'
-import { Box, Flex, Image} from '@chakra-ui/react';
+import { Box, Flex, Image } from '@chakra-ui/react';
 import Layout from '../components/layoutmenu'
-
+import LayFooter from '../components/layoutfooter'
 import Head from 'next/head';
 
 export async function getServerSideProps(context) {
@@ -21,7 +21,8 @@ export async function getServerSideProps(context) {
 
 export default function page_map({ data }) {
     return (
-        <Layout>
+        <div>
+            <Layout></Layout>
             <div class="container2">
                 <div id='map'>
                     <Head>
@@ -42,8 +43,8 @@ export default function page_map({ data }) {
                         <MapList key={index} item={item} />
                     ))}
                 </div>
-
             </div>
-        </Layout>
+            <LayFooter></LayFooter>
+        </div>
     );
 }

@@ -1,17 +1,20 @@
 import Layout from '../components/layoutmenu';
+import LayFooter from '../components/layoutfooter'
 import Head from 'next/head';
 
 const classrooms = () => {
     return (
-        <Layout>
+        <div>
+            <Layout></Layout>
             <Head>
                 <title> Salas </title>
             </Head>
             <h1>
                 por definir
             </h1>
+            <LayFooter></LayFooter>
+        </div>
 
-        </Layout>
 
     );
 }
