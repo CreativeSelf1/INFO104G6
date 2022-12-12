@@ -12,10 +12,10 @@ const MapUI = ({ item }) => {
         <div id="mapUi">
             <Flex top="-100px">
                 <Box paddingTop="2px">
-                    <Accordion allowToggle border="1px" w="300px" borderColor="green">
-                        <AccordionItem>
+                    <Accordion allowToggle border="1px" w="300px" borderColor="green" borderRadius="9px">
+                        <AccordionItem borderRadius="10px">
                             <h2>
-                                <AccordionButton>
+                                <AccordionButton borderRadius="9px"  _expanded={{ bg: 'green', color: 'white' }}>  
                                     <Box flex='1' textAlign='center'>
                                         <p>{item.id}</p>
                                     </Box>

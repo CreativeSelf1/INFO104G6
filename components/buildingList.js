@@ -30,7 +30,7 @@ const buildingsList = ({ item }) => {
                     <div class="card-content">
                         <div class="card-info">
                             <h2> {item.title}</h2>
-                            <a href='#'> Ver Mas </a>
+                            <a href='/page_map'> Ver en mapa </a>
                         </div>
                     </div>
                 </div>

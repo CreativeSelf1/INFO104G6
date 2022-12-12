@@ -1,5 +1,5 @@
 import MapList from '../components/mapList'
-import { Box, Flex, Image } from '@chakra-ui/react';
+import { Box, Flex, Image ,Center} from '@chakra-ui/react';
 import Layout from '../components/layoutmenu'
 import LayFooter from '../components/layoutfooter'
 import Head from 'next/head';
@@ -38,7 +38,9 @@ export default function page_map({ data }) {
                     </Flex>
                 </div>
                 <div id="list">
-                    <h1>Edificios</h1>
+                    <Center border="1px" alignContent="center" borderRadius="10px" borderColor="green">
+                        BÚSQUEDA RÁPIDA EDIFICIOS
+                    </Center>
                     {data.map((item, index) => (
                         <MapList key={index} item={item} />
                     ))}
