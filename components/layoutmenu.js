@@ -21,7 +21,7 @@ const Layout = ({ children}) => {
             </Flex>
             <Flex direction="row" padding="30px" paddingLeft="400px">
                 <ButtonGroup gap="20">
-                    <Link href="/classroms">
+                    <Link href="/classrooms">
                         <Button background="none" >Salas</Button>
                     </Link>
                     <Link href="/buildings">
