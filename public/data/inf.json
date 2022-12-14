@@ -6,7 +6,8 @@
         "imagen":"https://www.publimark.cl/media/k2/items/cache/92abdc10118f9607062da89875f14aa3_XL.jpg",
         "Buttonsize":"lg",
         "top":"555px",
-        "left":"780px"
+        "left":"780px",
+        "color":"#CD5C5C"
         
     },
     {
@@ -16,7 +17,8 @@
         "imagen":"http://infraestructura.uach.cl/wp-content/uploads/2018/01/Edificio-Ingenieri%CC%81a-Civil.jpg",
         "Buttonsize":"sm",
         "top":"460px",
-        "left":"860px"
+        "left":"860px",
+        "color":"#FFF8DC"
     },
     {
         "id": "12000",
@@ -25,7 +27,8 @@
         "imagen":"http://infraestructura.uach.cl/wp-content/uploads/2017/12/Edificio-Biblioteca.jpg",
         "Buttonsize":"md",
         "top":"500px",
-        "left":"825px"
+        "left":"825px",
+        "color":"#008B8B"
     },
     {
         "id": "11000",
@@ -34,7 +37,8 @@
         "imagen":"http://infraestructura.uach.cl/wp-content/uploads/2018/01/Edificio-Ingenieri%CC%81a-Civil-en-Obras-Civiles.jpg",
         "Buttonsize":"md",
         "top":"535px",
-        "left":"395px"
+        "left":"395px",
+        "color":"#FF8C00"
     },
     {
         "id": "10000",
@@ -43,7 +47,8 @@
         "imagen":"https://diario.uach.cl/wp-content/uploads/2010/07/1825300.jpg",
         "Buttonsize":"sm",
         "top":"709px",
-        "left":"786px"
+        "left":"786px",
+        "color":"#E9967A"
     },
     {  
         "id": "9000", 
@@ -52,7 +57,8 @@
         "imagen":"http://infraestructura.uach.cl/wp-content/uploads/2018/01/ingenieria110331_003-1.jpg",
         "Buttonsize":"lg",
         "top":"765px",
-        "left":"710px"
+        "left":"710px",
+        "color":"#9932CC"
 
     },
     { 
@@ -62,7 +68,8 @@
         "imagen":"https://live.staticflickr.com/3417/3493353946_07154dbc4c_b.jpg",
         "Buttonsize":"lg",
         "top":"775px",
-        "left":"780px"
+        "left":"780px",
+        "color":"#FF00FF"
     },
     { 
         "id": "7000",
@@ -71,7 +78,8 @@
         "imagen":"http://informatica.uach.cl/wp-content/uploads/2020/05/7k.jpg",
         "Buttonsize":"sm",
         "top":"690px",
-        "left":"275px"
+        "left":"275px",
+        "color":"#228B22"
     },
     { 
         "id": "6000",
@@ -80,7 +88,8 @@
         "imagen":"https://www.acusticauach.cl/wp-content/uploads/2012/10/Instituto-de-Acustica.jpg",
         "Buttonsize":"lg",
         "top":"560px",
-        "left":"870px"
+        "left":"870px",
+        "color":"#E0FFFF"
     },
     { 
         "id": "5000", 
@@ -89,7 +98,8 @@
         "imagen":"https://scontent.fscl13-2.fna.fbcdn.net/v/t1.6435-9/101473884_3169587873099150_443037996980109312_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeEIGqRGR-spgHhCBDsBFpxbPVD6gEN-XRo9UPqAQ35dGoXVUa_sAm8thvxeH23ayWLIwszjFHnuS3z9fIux42YT&_nc_ohc=EzER6ITXMFgAX_Jz7_F&_nc_ht=scontent.fscl13-2.fna&oh=00_AfD4iLEP4zGAIhWqP5MZF9L6d9FkpF-g0lK8sEWg4XL19A&oe=63BC5209",
         "Buttonsize":"sm",
         "top":"510px",
-        "left":"375px"
+        "left":"375px",
+        "color":"#8B4513"
     },
     { 
         "id": "4000",
@@ -98,7 +108,8 @@
         "imagen":"http://www.ingenieria.uach.cl/templates/yootheme/cache/edificio_4000_web-ac43934d.jpeg",
         "Buttonsize":"lg",
         "top":"605px",
-        "left":"185px"
+        "left":"185px",
+        "color":"#FFFF00"
 
     },
     { 
@@ -108,7 +119,8 @@
         "imagen":"http://www.ingenieria.uach.cl/templates/yootheme/cache/Edificio-3000web-9f19a952.jpeg",
         "Buttonsize":"md",
         "top":"615px",
-        "left":"420px"
+        "left":"420px",
+        "color":"#40E0D0"
     },
     { 
         "id": "2000",
@@ -117,7 +129,8 @@
         "imagen":"https://scontent.fscl13-1.fna.fbcdn.net/v/t1.6435-9/101213042_3168924196498851_3322311160853692416_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=19026a&_nc_eui2=AeFEgZlYMse7ndzo7Go8DrlwIVxBrUDuc94hXEGtQO5z3taeSthhn7Tjf7wRk6ZJ6k9-GvJhwI6G21IsmpKWsgMK&_nc_ohc=LXV2kR9SyqgAX8nziLL&_nc_ht=scontent.fscl13-1.fna&oh=00_AfDRVLGD_Y-FpMYM-22URx89yNCUQWk3Zp8lVegJybwkNQ&oe=63BC76EA",
         "Buttonsize":"lg",
         "top":"730px",
-        "left":"360px"
+        "left":"360px",
+        "color":"#FF6347"
     },
     { 
         "id": "1000",
@@ -126,7 +139,8 @@
         "imagen":"http://www.ingenieria.uach.cl/templates/yootheme/cache/edificio_1000_web-5237966f.jpeg",
         "Buttonsize":"md",
         "top":"635px",
-        "left":"370px"
+        "left":"370px",
+        "color":"#6A5ACD"
     },
     { 
         "id": "900",
@@ -135,7 +149,8 @@
         "imagen":"http://vinculacion.uach.cl/images/12345radio.jpg",
         "Buttonsize":"sm",
         "top":"530px",
-        "left":"315px"
+        "left":"315px",
+        "color":"#00FF7F"
     },
     { 
         "id": "500",
@@ -144,7 +159,8 @@
         "imagen":"http://www.ingenieria.uach.cl/templates/yootheme/cache/LEMCOweb-4495da26.jpeg",
         "Buttonsize":"sm",
         "top":"600px",
-        "left":"370px"
+        "left":"370px",
+        "color":"#FFC0CB"
     },
     { 
         "id": "200",
@@ -153,7 +169,8 @@
         "imagen":"http://www.ingenieria.uach.cl/templates/yootheme/cache/edificio_200_maquinas-71cdea9b.jpeg",
         "Buttonsize":"sm",
         "top":"710px",
-        "left":"305px"
+        "left":"305px",
+        "color":"#000080"
     },
     { 
         "id": "100",
@@ -162,7 +179,8 @@
         "imagen":"http://www.ingenieria.uach.cl/templates/yootheme/cache/edificio_100_canal-47d9c31e.jpeg",
         "Buttonsize":"md",
         "top":"650px",
-        "left":"220px"
+        "left":"220px",
+        "color":"#BA55D3"
     }   
 
 ]

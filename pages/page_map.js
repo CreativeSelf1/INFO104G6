@@ -3,23 +3,10 @@ import { Box, Flex, Image, Center, Button } from '@chakra-ui/react';
 import Layout from '../components/layoutmenu'
 import LayFooter from '../components/layoutfooter'
 import Head from 'next/head';
+import inf from '../public/data/inf.json'
 
-export async function getServerSideProps(context) {
-    const res = await fetch("http://localhost:3000/data/inf.json");
-    const data = await res.json();
 
-    if (!data) {
-        return {
-            notFound: true,
-        };
-    }
-
-    return {
-        props: { data },
-    };
-}
-
-export default function page_map({ data }) {
+export default function page_map() {
     return (
         <div class="page_map">
             <Layout></Layout>
@@ -47,14 +34,14 @@ export default function page_map({ data }) {
                         fontFamily="arial">
                         BÚSQUEDA RÁPIDA EDIFICIOS
                     </Center>
-                    {data.map((item, index) => (
+                    {inf.map((item, index) => (
                         <MapList key={index} item={item} />
                     ))}
                 </div>
             </div>
             <div class="containerI">
                 <div id="buttons">
-                    {data.map((item, index) => (
+                    {inf.map((item, index) => (
                         <Button className='btn' size={item.Buttonsize} top={item.top} left={item.left}></Button>
                     ))}
                 </div>

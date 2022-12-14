@@ -17,24 +17,10 @@ import Layout from '../components/layoutmenu';
 import Layfooter from '../components/layoutfooter'
 import BuildingsList from '../components/buildingList'
 import Head from 'next/head';
+import inf from '../public/data/inf.json'
 
 
-export async function getServerSideProps(context) {
-    const res = await fetch("http://localhost:3000/data/inf.json");
-    const data = await res.json();
-
-    if (!data) {
-        return {
-            notFound: true,
-        };
-    }
-
-    return {
-        props: { data },
-    };
-}
-
-export default function buildings({ data }) {
+export default function buildings() {
     return (
         <div>
             <Layout></Layout>
@@ -46,7 +32,7 @@ export default function buildings({ data }) {
                 <main>
                 {/* <Text paddingTop="30px" align="center" fontSize='4xl'>Campus Miraflores</Text> */}
                     <SimpleGrid columns={3} spacing={4} spacingY="60px" justifyItems="center" paddingTop="100px" paddingBottom="50px">
-                        {data.map((item, index) => (
+                        {inf.map((item, index) => (
                             <BuildingsList key={index} item={item} />
                         ))}
                     </SimpleGrid>

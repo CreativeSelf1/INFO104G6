@@ -15,7 +15,7 @@ const MapUI = ({ item }) => {
                     <Accordion allowToggle border="1px" w="300px" borderColor="green" borderRadius="9px">
                         <AccordionItem borderRadius="10px">
                             <h2>
-                                <AccordionButton borderRadius="9px"  _expanded={{ bg: 'green', color: 'white' }}>  
+                                <AccordionButton borderRadius="9px"  _expanded={{ bg: item.color, color: 'white' }}>  
                                     <Box flex='1' textAlign='center'>
                                         <p>{item.id}</p>
                                     </Box>
