@@ -34,9 +34,7 @@ export default function page_map() {
                         fontFamily="arial">
                         BÚSQUEDA RÁPIDA EDIFICIOS
                     </Center>
-                    {inf.map((item, index) => (
-                        <MapList key={index} item={item} />
-                    ))}
+                    <MapList></MapList>
                 </div>
             </div>
             <div class="containerI">

@@ -4,6 +4,7 @@
         "title": "Edificio 14K",
         "salas":["9101","9102","9201","9202"],
         "imagen":"https://www.publimark.cl/media/k2/items/cache/92abdc10118f9607062da89875f14aa3_XL.jpg",
+        "ButtonCarac":["lg","555px","780px","#CD5C5C"],
         "Buttonsize":"lg",
         "top":"555px",
         "left":"780px",
@@ -18,7 +19,8 @@
         "Buttonsize":"sm",
         "top":"460px",
         "left":"860px",
-        "color":"#FFF8DC"
+        "color":"#FFF8DC",
+        "ButtonCarac":["lg","555px","780px","#CD5C5C"]
     },
     {
         "id": "12000",
@@ -28,7 +30,8 @@
         "Buttonsize":"md",
         "top":"500px",
         "left":"825px",
-        "color":"#008B8B"
+        "color":"#008B8B",
+        "ButtonCarac":["lg","555px","780px","#CD5C5C"]
     },
     {
         "id": "11000",
@@ -38,7 +41,8 @@
         "Buttonsize":"md",
         "top":"535px",
         "left":"395px",
-        "color":"#FF8C00"
+        "color":"#FF8C00",
+        "ButtonCarac":["lg","555px","780px","#CD5C5C"]
     },
     {
         "id": "10000",
@@ -48,7 +52,8 @@
         "Buttonsize":"sm",
         "top":"709px",
         "left":"786px",
-        "color":"#E9967A"
+        "color":"#E9967A",
+        "ButtonCarac":["lg","555px","780px","#CD5C5C"]
     },
     {  
         "id": "9000", 
@@ -58,7 +63,8 @@
         "Buttonsize":"lg",
         "top":"765px",
         "left":"710px",
-        "color":"#9932CC"
+        "color":"#9932CC",
+        "ButtonCarac":["lg","555px","780px","#CD5C5C"]
 
     },
     { 
@@ -69,7 +75,8 @@
         "Buttonsize":"lg",
         "top":"775px",
         "left":"780px",
-        "color":"#FF00FF"
+        "color":"#FF00FF",
+        "ButtonCarac":["lg","555px","780px","#CD5C5C"]
     },
     { 
         "id": "7000",
@@ -79,7 +86,8 @@
         "Buttonsize":"sm",
         "top":"690px",
         "left":"275px",
-        "color":"#228B22"
+        "color":"#228B22",
+        "ButtonCarac":["lg","555px","780px","#CD5C5C"]
     },
     { 
         "id": "6000",
@@ -89,7 +97,8 @@
         "Buttonsize":"lg",
         "top":"560px",
         "left":"870px",
-        "color":"#E0FFFF"
+        "color":"#E0FFFF",
+        "ButtonCarac":["lg","555px","780px","#CD5C5C"]
     },
     { 
         "id": "5000", 
@@ -99,7 +108,8 @@
         "Buttonsize":"sm",
         "top":"510px",
         "left":"375px",
-        "color":"#8B4513"
+        "color":"#8B4513",
+        "ButtonCarac":["lg","555px","780px","#CD5C5C"]
     },
     { 
         "id": "4000",
@@ -109,7 +119,8 @@
         "Buttonsize":"lg",
         "top":"605px",
         "left":"185px",
-        "color":"#FFFF00"
+        "color":"#FFFF00",
+        "ButtonCarac":["lg","555px","780px","#CD5C5C"]
 
     },
     { 
@@ -120,7 +131,8 @@
         "Buttonsize":"md",
         "top":"615px",
         "left":"420px",
-        "color":"#40E0D0"
+        "color":"#40E0D0",
+        "ButtonCarac":["lg","555px","780px","#CD5C5C"]
     },
     { 
         "id": "2000",
@@ -130,7 +142,8 @@
         "Buttonsize":"lg",
         "top":"730px",
         "left":"360px",
-        "color":"#FF6347"
+        "color":"#FF6347",
+        "ButtonCarac":["lg","555px","780px","#CD5C5C"]
     },
     { 
         "id": "1000",
@@ -140,7 +153,8 @@
         "Buttonsize":"md",
         "top":"635px",
         "left":"370px",
-        "color":"#6A5ACD"
+        "color":"#6A5ACD",
+        "ButtonCarac":["lg","555px","780px","#CD5C5C"]
     },
     { 
         "id": "900",
@@ -150,7 +164,8 @@
         "Buttonsize":"sm",
         "top":"530px",
         "left":"315px",
-        "color":"#00FF7F"
+        "color":"#00FF7F",
+        "ButtonCarac":["lg","555px","780px","#CD5C5C"]
     },
     { 
         "id": "500",
@@ -160,7 +175,8 @@
         "Buttonsize":"sm",
         "top":"600px",
         "left":"370px",
-        "color":"#FFC0CB"
+        "color":"#FFC0CB",
+        "ButtonCarac":["lg","555px","780px","#CD5C5C"]
     },
     { 
         "id": "200",
@@ -170,7 +186,8 @@
         "Buttonsize":"sm",
         "top":"710px",
         "left":"305px",
-        "color":"#000080"
+        "color":"#000080",
+        "ButtonCarac":["lg","555px","780px","#CD5C5C"]
     },
     { 
         "id": "100",
@@ -180,7 +197,8 @@
         "Buttonsize":"md",
         "top":"650px",
         "left":"220px",
-        "color":"#BA55D3"
+        "color":"#BA55D3",
+        "ButtonCarac":["lg","555px","780px","#CD5C5C"]
     }   
 
 ]

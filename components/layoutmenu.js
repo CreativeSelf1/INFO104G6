@@ -8,7 +8,7 @@ import { Button,
     Link
 } from "@chakra-ui/react";
 import { FiGithub } from "react-icons/fi";
-import Layoutfooter from "./layoutfooter"
+
 
 const Layout = ({ children}) => {
 
@@ -21,8 +21,8 @@ const Layout = ({ children}) => {
             </Flex>
             <Flex direction="row" padding="30px" paddingLeft="400px">
                 <ButtonGroup gap="20">
-                    <Link href="/classrooms">
-                        <Button background="none" >Salas</Button>
+                    <Link href="/inicio">
+                        <Button background="none" >Inicio</Button>
                     </Link>
                     <Link href="/buildings">
                         <Button background="none" >Edificios</Button>
