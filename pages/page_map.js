@@ -4,6 +4,7 @@ import Layout from '../components/layoutmenu'
 import LayFooter from '../components/layoutfooter'
 import Head from 'next/head';
 import inf from '../public/data/inf.json'
+import { useState } from 'react';
 
 
 export default function page_map() {
@@ -13,7 +14,6 @@ export default function page_map() {
             <Head>
                 <title> Mapa </title>
             </Head>
-
             <div class="containerI2">
                 <div id='map'>
                     <Flex>
@@ -28,7 +28,7 @@ export default function page_map() {
                 <div id="list">
                     <Center bg=" linear-gradient(90deg, rgb(31, 23, 170) 0%, rgba(195,196,238,1) 0%, rgba(140,180,136,1) 35%, rgba(137,212,227,1) 100%)"
                         border="1px"
-                        alignContent="center"   
+                        alignContent="center"
                         borderRadius="10px"
                         borderColor="green"
                         fontFamily="arial">
@@ -40,7 +40,15 @@ export default function page_map() {
             <div class="containerI">
                 <div id="buttons">
                     {inf.map((item, index) => (
-                        <Button className='btn' size={item.Buttonsize} top={item.top} left={item.left}></Button>
+                        <Button 
+                            className='btn'
+                            // color={item.color}
+                            // border="4px solid" 
+                            size={item.Buttonsize} top={item.top}
+                            left={item.left}
+                            // // _hover={{background: item.color}}
+                            >
+                        </Button>
                     ))}
                 </div>
             </div>

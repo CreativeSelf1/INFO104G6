@@ -2,54 +2,23 @@ import Layout from '../components/layoutmenu';
 import LayFooter from '../components/layoutfooter'
 import Head from 'next/head';
 import { Center, Image, Box } from '@chakra-ui/react';
+import SliderIm from '../components/sliderIm';
 
 const classrooms = () => {
     return (
         <div>
             <Layout></Layout>
             <Head>
-                <title> Inicio </title>
+                <title> Inicio y mapa </title>
             </Head>
-            <Center background="gray" marginTop="3px" height="540px" bg="black">
-                <div class='slider'>
-                    <div class='slides'>
-                        <input type="radio" name='radio-btn' id='btn1'></input>
-                        <input type="radio" name='radio-btn' id='btn2'></input>
-                        <input type="radio" name='radio-btn' id='btn3'></input>
-                        <input type="radio" name='radio-btn' id='btn4'></input>
-                        <div class='slide first'>
-                            <img src='../data/images/aerea_campus_01_1200x500.jpg'></img>
-                        </div>
-                        <div class='slide'>
-                            <img src='../data/images/informatica-aniversario.jpeg'></img>
-                        </div>
-                        <div class='slide'>
-                            <img src='../data/images/514c82599dd07.jpg'></img>
-                        </div>
-                        <div class='slide'>
-                            <img src='../data/images/biblioteca-campus-miraflores.jpg'></img>
-                        </div>
-
-                        <div class='navegacionAuto'>
-                            <div class="autoBoton1"></div>
-                            <div class="autoBoton2"></div>
-                            <div class="autoBoton3"></div>
-                            <div class="autoBoton4"></div>
-                        </div>
-                    </div>
-                    <div class='navegacionManual'>
-                        <label for="btn1" class="botonManual"></label>
-                        <label for="btn2" class="botonManual"></label>
-                        <label for="btn3" class="botonManual"></label>
-                        <label for="btn4" class="botonManual"></label>
-                    </div>
-                </div>
-            </Center>
+            <div class="sliderCom">
+                <SliderIm></SliderIm>
+            </div>
             <div class='miraflores'>
                 <Center bg="black" color='white' height="100px" fontSize="5xl" fontStyle="oblique" marginTop="3px">
                     Campus miraflores
                 </Center>
-                <p>
+                <p >
                     La Facultad de Ciencias de la Ingeniería de la Universidad Austral de Chile
                     se encuentra en un privilegiado lugar rodeado de naturaleza y con una hermosa
                     vista hacia los ríos de Valdivia. Ubicada en calle General Lagos 2086 se localiza
@@ -76,10 +45,19 @@ const classrooms = () => {
                                 <h3>Ingeniería Civil Industrial</h3>
                             </li>
                             <li>
-                                <h3>Ingeniería Civil Industrial</h3>
+                                <h3>Ingeniería Civil Informática</h3>
                             </li>
                             <li>
-                                <h3>Ingeniería Civil Industrial</h3>
+                                <h3>Ingeniería Civil en Obras Civiles</h3>
+                            </li>
+                            <li>
+                                <h3>Ingeniería Civil Mecánica</h3>
+                            </li>
+                            <li>
+                                <h3>Ingeniería Civil en Construcción</h3>
+                            </li>
+                            <li>
+                                <h3>Ingeniería Civil </h3>
                             </li>
                             <a href='https://www.uach.cl/pregrado/principal/carreras-profesionales' target="_blank"> Ver mas</a>
                         </ul>
@@ -92,6 +70,11 @@ const classrooms = () => {
                         />
                     </Box>
                 </div>
+            </div>
+            <div class='infraestuctura'>
+                <Center bg="#ff8000" color='white' height="100px" fontSize="5xl" fontStyle="oblique" marginTop="3px">
+                    Infraestuctura
+                </Center>
             </div>
             <LayFooter></LayFooter>
         </div>

@@ -1,16 +1,17 @@
-import { Button, 
-    ButtonGroup, 
-    Divider, 
-    Flex, 
-    IconButton, 
-    Box, 
-    Image, 
+import {
+    Button,
+    ButtonGroup,
+    Divider,
+    Flex,
+    IconButton,
+    Box,
+    Image,
     Link
 } from "@chakra-ui/react";
 import { FiGithub } from "react-icons/fi";
 
 
-const Layout = ({ children}) => {
+const Layout = ({ children }) => {
 
     return (
         <Flex id="MenuBarra">
@@ -32,11 +33,9 @@ const Layout = ({ children}) => {
                     </Link>
                 </ButtonGroup>
             </Flex>
-
             <Divider orientation="vertical" marginLeft="350px" />
-
             <Link href="https://github.com/CreativeSelf1/INFO104G6" isExternal marginTop="30px" marginLeft="33px">
-                <IconButton  background="none" icon={<FiGithub />}></IconButton>
+                <IconButton background="none" icon={<FiGithub />}></IconButton>
             </Link>
         </Flex>
     )
