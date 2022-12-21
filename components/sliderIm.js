@@ -10,8 +10,8 @@ function counter() {
             counter1=1;
         }
     },5000)
-
 }
+
 const SliderIm = () => {
     return (
         <Center background="gray" marginTop="3px" height="540px" bg="black">
@@ -48,8 +48,8 @@ const SliderIm = () => {
                     <label for="btn4" class="botonManual"></label>
                 </div>
             </div>
-            <script type="text/javascript">ç
-            {counter()}</script>
+            <script type="text/javascript">
+            </script>
         </Center>
     )
 }

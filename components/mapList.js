@@ -17,7 +17,7 @@ const MapUI = () => {
                         {inf.map((item, index) => (
                             <AccordionItem padding="3px" borderRadius="10px">
                                 <h2>
-                                    <AccordionButton borderRadius="9px" _expanded={{ bg: item.color, color: 'black' }}>
+                                    <AccordionButton borderRadius="9px" _expanded={{ bg: item.ButtonCarac[3], color: 'black' }}>
                                         <Box flex='1' textAlign='center'>
                                             <p>{item.id}</p>
                                         </Box>
@@ -26,7 +26,9 @@ const MapUI = () => {
                                 </h2>
                                 <AccordionPanel pb={4} textAlign='center'>
                                     <p>{item.title + "\n"}</p><br></br>
-                                    <p>{item.salas + "  "} </p>
+                                    {item.salas.map((item2,index)=>(
+                                        <p>{item2}</p>
+                                    ))}
                                 </AccordionPanel>
                             </AccordionItem>
                         ))}

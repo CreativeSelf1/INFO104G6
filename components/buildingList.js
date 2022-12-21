@@ -1,17 +1,8 @@
 import {
-    SimpleGrid,
     Box,
     Image,
-    Input,
-    defineStyleConfig,
-    Icon
 } from '@chakra-ui/react';
-import {
-    RiSearch2Line,
-    RiSearch2Fill
-} from 'react-icons/ri';
 
-import Head from 'next/head';
 
 const buildingsList = ({ item }) => {
     return (
@@ -30,7 +21,7 @@ const buildingsList = ({ item }) => {
                     <div class="card-content">
                         <div class="card-info">
                             <h2> {item.title}</h2>
-                            <a href='/page_map'> Ver en mapa </a>
+                            <a > Ver Planos </a>
                         </div>
                     </div>
                 </div>

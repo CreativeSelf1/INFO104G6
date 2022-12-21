@@ -14,6 +14,7 @@ h1{
   text-align: center;
   padding-bottom: 10px;
 }
+
 .container {
   padding: 0 2rem;
   
@@ -429,8 +430,9 @@ padding:1em 1.5em;
   padding-top: 20px;
 }
 .listCar h2{
-  font-size:xx-large;
+  font-size:xx-large;   
 }
+
 .listCar a{
   color: #0070f3;
 }
@@ -439,15 +441,20 @@ padding:1em 1.5em;
   display:flex;
   padding-left: 120px;  
   margin-top: 50px;
+  
 }
 .miraflores p{
   font-size: larger;
-  justify-content: center;
-  justify-items: center; 
   text-align: center;
   margin-top: 40px;
   margin-bottom: 40px;
 }
 
-
+.infraestuctura p{
+  font-size: larger;
+  padding: 3px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
 

@@ -4,10 +4,11 @@ import Layout from '../components/layoutmenu'
 import LayFooter from '../components/layoutfooter'
 import Head from 'next/head';
 import inf from '../public/data/inf.json'
-import { useState } from 'react';
+import ButtonList from '../components/buttonList'
 
 
 export default function page_map() {
+
     return (
         <div class="page_map">
             <Layout></Layout>
@@ -40,16 +41,10 @@ export default function page_map() {
             <div class="containerI">
                 <div id="buttons">
                     {inf.map((item, index) => (
-                        <Button 
-                            className='btn'
-                            // color={item.color}
-                            // border="4px solid" 
-                            size={item.Buttonsize} top={item.top}
-                            left={item.left}
-                            // // _hover={{background: item.color}}
-                            >
-                        </Button>
-                    ))}
+                        <ButtonList key={index} item={item} />
+                        
+                    ))
+                    }
                 </div>
             </div>
             <LayFooter></LayFooter>

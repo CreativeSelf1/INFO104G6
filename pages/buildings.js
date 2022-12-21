@@ -6,7 +6,8 @@ import {
     Input,
     defineStyleConfig,
     Icon,
-    Heading
+    Heading,
+    Button
 } from '@chakra-ui/react';
 import {
     RiSearch2Line,
@@ -19,7 +20,6 @@ import BuildingsList from '../components/buildingList'
 import Head from 'next/head';
 import inf from '../public/data/inf.json'
 
-
 export default function buildings() {
     return (
         <div>
@@ -28,7 +28,6 @@ export default function buildings() {
                 <Head>
                     <title> Edificios </title>
                 </Head>
-
                 <main>
                 {/* <Text paddingTop="30px" align="center" fontSize='4xl'>Campus Miraflores</Text> */}
                     <SimpleGrid columns={3} spacing={4} spacingY="60px" justifyItems="center" paddingTop="100px" paddingBottom="50px">

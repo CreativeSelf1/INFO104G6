@@ -9,7 +9,7 @@ const classrooms = () => {
         <div>
             <Layout></Layout>
             <Head>
-                <title> Inicio y mapa </title>
+                <title> Inicio </title>
             </Head>
             <div class="sliderCom">
                 <SliderIm></SliderIm>
@@ -73,7 +73,20 @@ const classrooms = () => {
             </div>
             <div class='infraestuctura'>
                 <Center bg="#ff8000" color='white' height="100px" fontSize="5xl" fontStyle="oblique" marginTop="3px">
-                    Infraestuctura
+                    Infraestructura
+                </Center>
+                <p>
+                Emplazada en una superficie de 34 hectáreas, la Facultad de Ciencias de la Ingeniería se ubica 
+                en el Campus Miraflores de la Universidad Austral de Chile en calle General Lagos 2086 en la 
+                intersección con calle Rudloff. Otro de sus accesos se encuentra en la prolongación de calle 
+                Zaragoza con Rudloff. Nuestra infraestructura contempla salas de clases, laboratorios, oficinas, 
+                biblioteca, espacios para la recreación y el desarrollo integral de la comunidad estudiantil, 
+                todo en un entorno de áreas verdes y humedales característicos de nuestra ciudad.
+                </p>
+
+                <Center marginTop="40px" bg="#ff8000" w="1540px" h="456px" marginBottom="40px">
+                    <Image src='../data/images/InfraMira.png' px="170px" >
+                    </Image>
                 </Center>
             </div>
             <LayFooter></LayFooter>
