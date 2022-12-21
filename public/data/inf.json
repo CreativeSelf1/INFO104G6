@@ -13,7 +13,7 @@
         "id": "13000",  
         "title": "Edificio Industrial",
         "salas":["9101","9102","9201","9202"],
-        "imagen":"http://infraestructura.uach.cl/wp-content/uploads/2018/01/Edificio-Ingenieri%CC%81a-Civil.jpg",
+        "imagen":"https://i.imgur.com/AwWuffu.jpeg",
         "ButtonCarac":["sm","460px","860px","#708090"],
         "informacion":"El moderno edificio terminado el 2017, aloja al Instituto de Ingeniería Industrial y Sistemas y la Escuela de Ingeniería Civil Industrial."
     },
@@ -29,7 +29,7 @@
         "id": "11000",
         "title": "Edificio obras civiles",
         "salas":["9101","9102","9201","9202"],
-        "imagen":"http://infraestructura.uach.cl/wp-content/uploads/2018/01/Edificio-Ingenieri%CC%81a-Civil-en-Obras-Civiles.jpg",
+        "imagen":"https://infraestructura.uach.cl/wp-content/uploads/2018/01/Edificio-Ingenieri%CC%81a-Civil-en-Obras-Civiles.jpg",
         "ButtonCarac":["md","535px","395px","#FF8C00"],
         "informacion":"Los 1000 m2 de esta infraestructura se dividen en tres niveles que albergan al Instituto de Obras Civiles y las Escuelas de Ingeniería Civil en Obras Civiles e Ingeniería en Construcción."
     },
@@ -45,7 +45,7 @@
         "id": "9000", 
         "title": "Carlos Hunt Sharpe" ,
         "salas":["9101","9102","9201","9202"],
-        "imagen":"http://infraestructura.uach.cl/wp-content/uploads/2018/01/ingenieria110331_003-1.jpg",
+        "imagen":"https://infraestructura.uach.cl/wp-content/uploads/2018/01/ingenieria110331_003-1.jpg",
         "ButtonCarac":["lg","765px","710px","#9932CC"],
         "informacion":"Los 1.700 m2 de este edificio están destinados a actividades de docencia  Laboratorio de Computación en Ingeniería (LCI), salas de clases, cubículos de estudio, auditorio y salas de postgrado. El nombre es en honor a un destacado académico especialista en el área de Transporte Marítimo e Ingeniería Naval, académico de Ingeniería UACh y secretario académico de la Univ. Técnica del Estado."
 
@@ -62,7 +62,7 @@
         "id": "7000",
         "title": "Edificio multimedia" ,
         "salas":["9101","9102","9201","9202"],
-        "imagen":"http://informatica.uach.cl/wp-content/uploads/2020/05/7k.jpg",
+        "imagen":"https://i.imgur.com/2GrJ6Lj.jpg",
         "ButtonCarac":["sm","690px","275px","#228B22"],
         "informacion":"Con el objetivo de incorporar Tecnologías de Información y Comunicacionales (TIC) en los métodos de docencia se construyó este edificio que contiene salas de clases, laboratorio de computación y salas de reuniones. Todos estos espacios están especialmente equipados para eventos y reuniones multimediales."
     },
@@ -86,7 +86,7 @@
         "id": "4000",
         "title": "Walter Heitmann Cords" ,
         "salas":["9101","9102","9201","9202"],
-        "imagen":"http://www.ingenieria.uach.cl/templates/yootheme/cache/edificio_4000_web-ac43934d.jpeg",
+        "imagen":"https://www.ingenieria.uach.cl/templates/yootheme/cache/edificio_4000_web-ac43934d.jpeg",
         "ButtonCarac":["lg","605px","185px","#FFFF00"],
         "informacion":"A orillas del río, esta construcción alberga el astillero,  Laboratorio de Ensayo de Materiales, el Laboratorio de Navegación, Sala de dibujo y Club de Yates."
 
@@ -95,7 +95,7 @@
         "id": "3000",
         "title": "Luis Christen Adams" ,
         "salas":["9101","9102","9201","9202"],
-        "imagen":"http://www.ingenieria.uach.cl/templates/yootheme/cache/Edificio-3000web-9f19a952.jpeg",
+        "imagen":"https://www.ingenieria.uach.cl/templates/yootheme/cache/Edificio-3000web-9f19a952.jpeg",
         "ButtonCarac":["md","615px","420px","#40E0D0"],
         "informacion":"Este recinto alberga al Instituto de Procesos Termomecánicos, en el primer piso y un auditorio con capacidad para 250 personas y salas de clases en el segundo nivel. El Instituto de Materiales y Procesos Termomecánicos posee laboratorios del área de caracterización de materiales, donde se realizan actividades de docencia, investigación y servicios, así como laboratorios del área de termofluidos, dedicados exclusivamente a la docencia, aunque eventualmente se realizan también actividades de capacitación."
     },
@@ -111,7 +111,7 @@
         "id": "1000",
         "title": "Decanato" ,
         "salas":["9101","9102","9201","9202"],
-        "imagen":"http://www.ingenieria.uach.cl/templates/yootheme/cache/edificio_1000_web-5237966f.jpeg",
+        "imagen":"https://www.ingenieria.uach.cl/templates/yootheme/cache/edificio_1000_web-5237966f.jpeg",
         "ButtonCarac":["md","635px","370px","#6A5ACD"],
         "informacion":"Actualmente en este edificio encontramos a Decanatura, Prodecanatura, Secretaría Académica,  Oficina de Comunicaciones y  Vinculación con el Medio, Unidad de Apoyo al Aprendizaje, Oficina de Educación en Ingeniería, Oficina de Administración, Oficina de Logística, Oficina de Infraestructura,  las Escuelas de Ingeniería Civil Electrónica e Ingeniería Civil Mecánica y el Bachillerato en Ciencias de la Ingeniería. Finalmente, en el tercer piso, se encuentra la Dirección de la Escuela de Graduados y salas para los estudiantes de postgrado."
     },
@@ -119,7 +119,7 @@
         "id": "900",
         "title": "Radio UACh" ,
         "salas":["9101","9102","9201","9202"],
-        "imagen":"http://vinculacion.uach.cl/images/12345radio.jpg",
+        "imagen":"https://i.imgur.com/zdfIoWk.jpg",
         "ButtonCarac":["sm","530px","315px","#00FF7F"],
         "informacion":"Dependiente de la Dirección de Vinculación con el Medio, la Radio Universidad Austral de Chile es un espacio destinado a la difusión del quehacer noticioso universitario y regional, con énfasis en transmitir los avances y aportes que realiza la UACh a la sociedad en su conjunto."
     },
@@ -127,7 +127,7 @@
         "id": "500",
         "title": "Laboratorio CIVILAB Materiales" ,
         "salas":["9101","9102","9201","9202"],
-        "imagen":"http://www.ingenieria.uach.cl/templates/yootheme/cache/LEMCOweb-4495da26.jpeg",
+        "imagen":"https://www.ingenieria.uach.cl/templates/yootheme/cache/LEMCOweb-4495da26.jpeg",
         "ButtonCarac":["sm","600px","370px","#FF69B4"],
         "informacion":"Creado en el año 1965 para cumplir labores docentes y cubrir la necesidad de controlar la calidad de las diversas  obras de la zona, tanto particulares como fiscales. "
     },
@@ -135,7 +135,7 @@
         "id": "200",
         "title": "Edmundo Rodriguez Poirrier",
         "salas":["9101","9102","9201","9202"],
-        "imagen":"http://www.ingenieria.uach.cl/templates/yootheme/cache/edificio_200_maquinas-71cdea9b.jpeg",
+        "imagen":"https://www.ingenieria.uach.cl/templates/yootheme/cache/edificio_200_maquinas-71cdea9b.jpeg",
         "ButtonCarac":["sm","710px","305px","#000080"],
         "informacion":"En este edificio funciona el Laboratorio de Máquinas Marinas y Tecnología Mecánica Naval. Aquí se desarrolla actividades de docencia e investigación aplicada. En materia de investigación colabora en proyectos con empresas acuícolas y marítimas en aprovechamiento energético, generación eléctrica a partir de una planta térmica, análisis de emisiones y mejoras en eficiencia de consumos de combustible."
     },
@@ -143,7 +143,7 @@
         "id": "100",
         "title": "Marcos Hiztler Sorensen" ,
         "salas":["9101","9102","9201","9202"],
-        "imagen":"http://www.ingenieria.uach.cl/templates/yootheme/cache/edificio_100_canal-47d9c31e.jpeg",
+        "imagen":"https://www.ingenieria.uach.cl/templates/yootheme/cache/edificio_100_canal-47d9c31e.jpeg",
         "ButtonCarac":["md","650px","220px","#90EE90"],
         "informacion":"Con más de 40 años al servicio de la comunidad con el objetivo de realizar ensayos hidrodinámicos de modelos a escala para simular las condiciones de operación de distintos tipos de naves y artefactos flotantes."
     }   
