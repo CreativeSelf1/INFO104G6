@@ -6,12 +6,12 @@ const buttonList = ({ item }) => {
         <>
             <Button
                 className='btn' onClick={onOpen}
-                // color={item.color}
-                // border="4px solid" 
+                color={item.ButtonCarac[3]}
+                border="3px solid"
                 size={item.ButtonCarac[0]}
                 top={item.ButtonCarac[1]}
                 left={item.ButtonCarac[2]}
-            // // _hover={{background: item.color}}
+                _hover={{ background: item.ButtonCarac[3] }}
             >
             </Button>
 
@@ -29,7 +29,6 @@ const buttonList = ({ item }) => {
                                 <p>{item2}</p>
                             ))}
                         </Box>
-
                         <Center borderRadius="30px" w='520px' h='520px' marginLeft="500px" marginTop="-430px" bg={item.ButtonCarac[3]}>
                             <Image borderRadius="20px" boxSize="lg" src={item.imagen}></Image>
                         </Center>

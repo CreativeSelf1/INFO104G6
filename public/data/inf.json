@@ -20,7 +20,7 @@
     {
         "id": "12000",
         "title": "Biblioteca tecnológica",
-        "salas":["9101","9102","9201","9202"],
+        "salas":["Ambientes de trabajo","Cúbiculos de estudio"],
         "imagen":"http://infraestructura.uach.cl/wp-content/uploads/2017/12/Edificio-Biblioteca.jpg",
         "ButtonCarac":["md","500px","825px","#008B8B"],
         "informacion":"Se posiciona como el centro neurálgico de la FCI, siendo un lugar de difusión de la información, un espacio interactivo entre personas, tecnología, documentos y un contenedor de conocimientos en sus distintos formatos. Además, otorga ambientes para el trabajo grupal situados al centro de la sala, cuenta también con cubículos de estudio semi-traslúcidos en el área poniente y una sala protegida de la radiación solar para consultas virtuales, al lado oriente del edificio."
@@ -53,10 +53,10 @@
     { 
         "id": "8000",
         "title": "Eduardo Gonzáles Villa",
-        "salas":["9101","9102","9201","9202"],
+        "salas":["Laboratorio de máquinas","Laboratorio de manufactura","Laboratorio de sólidos","Laboratorios de termo fluidos","Laboratorio de de electrónica","Laboratorio de acùstica","Cúbiculos y cafeterìa"],
         "imagen":"https://live.staticflickr.com/3417/3493353946_07154dbc4c_b.jpg",
         "ButtonCarac":["lg","775px","780px","#FF00FF"],
-        "informacion":"En honor a un destacado ex profesor de la Ex Universidad Técnica del Estado, (UTE sede Valdivia) que destacó por ser formador de generaciones de estudiantes en el área tecnológica. En este edificio se encuentran: Laboratorios de Máquinas y Herramientas, Laboratorio de Manufactura, Laboratorio de Sólidos, Laboratorio de Termo Fluidos, Laboratorio de Electrónica, Laboratorios de Acústica, Cubículos para alumnos y Cafetería."
+        "informacion":"En honor a un destacado ex profesor de la Ex Universidad Técnica del Estado, (UTE sede Valdivia) que destacó por ser formador de generaciones de estudiantes en el área tecnológica."
     },
     { 
         "id": "7000",
@@ -69,7 +69,7 @@
     { 
         "id": "6000",
         "title": "Joaquín Castellano de la Torre" ,
-        "salas":["6301","6302","6303","6304","6305","6306","6307","6308","6309","6310"],
+        "salas":["6301","6302","6303","6304","6305","6306","6307","6308","6309","6310","Cafetería"],
         "imagen":"https://www.acusticauach.cl/wp-content/uploads/2012/10/Instituto-de-Acustica.jpg",
         "ButtonCarac":["lg","560px","870px","#00BFFF"],
         "informacion":"El edificio que contiene las oficinas de los académicos del Centro de Docencia de Cs. Básicas para la Ingeniería, lleva su nombre en honor a quien fuera profesor de Estado de Física y Matemática y que enseñó durante más de 40 años en las salas que hoy son parte de esta edificación. Esta iniciativa nació como una idea que sus alumnos tuvieron para honrar su memoria."
