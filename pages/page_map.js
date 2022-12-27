@@ -33,7 +33,7 @@ export default function page_map() {
                         borderRadius="10px"
                         borderColor="green"
                         fontFamily="arial">
-                        BÚSQUEDA RÁPIDA EDIFICIOS
+                        INFORMACIÓN RÁPIDA DE EDIFICIOS
                     </Center>
                     <MapList></MapList>
                 </div>
@@ -42,7 +42,7 @@ export default function page_map() {
                 <div id="buttons">
                     {inf.map((item, index) => (
                         <ButtonList key={index} item={item} />
-                        
+
                     ))
                     }
                 </div>

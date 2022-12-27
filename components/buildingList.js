@@ -21,7 +21,7 @@ const buildingsList = ({ item }) => {
                     <div class="card-content">
                         <div class="card-info">
                             <h2> {item.title}</h2>
-                            <a > Ver Planos </a>
+                            <p > {item.id} </p>
                         </div>
                     </div>
                 </div>

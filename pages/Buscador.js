@@ -14,7 +14,7 @@ export default function Buscador() {
     const handleClick = (e) => {
         e.preventDefault
         //console.log(datos[0].id);
-        setResultado(datos.filter(obj => obj.id === texto))
+        setResultado(datos.filter(obj => obj.id === texto.toLowerCase()))
 
         //console.log(texto)
         console.log(resultado)
