@@ -31,6 +31,9 @@ const Layout = ({ children }) => {
                     <Link href="/page_map">
                         <Button background="none" >Mapa</Button>
                     </Link>
+                    <Link href="/Buscador">
+                        <Button background="none" >Buscar</Button>
+                    </Link>
                 </ButtonGroup>
             </Flex>
             <Divider orientation="vertical" marginLeft="350px" />
