@@ -15,7 +15,7 @@ const Layout = ({ children }) => {
 
     return (
         <Flex id="MenuBarra">
-            <Flex paddingLeft="80px" pt="10px">
+            <Flex paddingLeft="0px" pt="10px">
                 <Box boxSize='150px' marginLeft="px">
                     <Image src='https://www.uach.cl/uach/_file/logo_uach-614a369aa9528.png' blockSize="76%" paddingBottom="25px" />
                 </Box>
@@ -36,8 +36,8 @@ const Layout = ({ children }) => {
                     </Link>
                 </ButtonGroup>
             </Flex>
-            <Divider orientation="vertical" marginLeft="350px" />
-            <Link href="https://github.com/CreativeSelf1/INFO104G6" isExternal marginTop="30px" marginLeft="33px">
+            <Divider orientation="vertical" marginLeft="230px" />
+            <Link href="https://github.com/Lagartin1/INFO104G6-1" isExternal marginTop="30px" marginLeft="33px">
                 <IconButton background="none" icon={<FiGithub />}></IconButton>
             </Link>
         </Flex>

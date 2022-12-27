@@ -8,10 +8,10 @@ import Layfooter from '../components/layoutfooter'
 import Head from 'next/head';
 
 export default function Buscador() {
-    const [texto,setTexto]=useState("")
-    {/* const [resultado,setResultado]=useState("") */}  
-    const [resultado,setResultado]=useState([])
-    const handleClick = (e) =>{
+    const [texto, setTexto] = useState("")
+    {/* const [resultado,setResultado]=useState("") */ }
+    const [resultado, setResultado] = useState([])
+    const handleClick = (e) => {
         e.preventDefault
         //console.log(datos[0].id);
         setResultado(datos.filter(obj => obj.id === texto))
@@ -23,18 +23,19 @@ export default function Buscador() {
         setTexto(e.target.value);
     }
     return (
-            <div>
-                <Layout></Layout>
-                    <div class="Container_grid">
-                        <Head>
-                            <title> Edificios </title>
-                        </Head>
-                        <input type="text" value={texto} onChange={handlechange} placeholder="Ingresar sala" ></input>
-                        <button onClick={handleClick} alt="">Buscar</button>
-                        {resultado.map((imagen) => (
-                        <img src={imagen.img} alt=""></img>
+        <div>
+            <Layout></Layout>
+            <div class='busqueda'>
+                <Head>
+                    <title> Busqueda </title>
+                </Head>
+                <input type="text" value={texto} onChange={handlechange} placeholder="Ingresar sala" ></input>
+                <button onClick={handleClick} alt="">Buscar</button>
+                {resultado.map((imagen) => (
+                    <img src={imagen.img} alt=""></img>
                 ))}
             </div>
             <Layfooter></Layfooter>
         </div>
-    )}
+    )
+}

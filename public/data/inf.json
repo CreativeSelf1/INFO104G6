@@ -29,7 +29,7 @@
         "id": "11000",
         "title": "Edificio obras civiles",
         "salas":["Salas de estudio","11101"],
-        "imagen":"https://infraestructura.uach.cl/wp-content/uploads/2018/01/Edificio-Ingenieri%CC%81a-Civil-en-Obras-Civiles.jpg",
+        "imagen":"https://live.staticflickr.com/1526/26110739374_aa606279b0_b.jpg",
         "ButtonCarac":["md","535px","395px","#FF8C00"],
         "informacion":"Los 1000 m2 de esta infraestructura se dividen en tres niveles que albergan al Instituto de Obras Civiles y las Escuelas de Ingeniería Civil en Obras Civiles e Ingeniería en Construcción."
     },
@@ -45,7 +45,7 @@
         "id": "9000", 
         "title": "Carlos Hunt Sharpe" ,
         "salas":["9101","9102","9103","9201","9202","Auditorio 9000","Salas de estudio"],
-        "imagen":"https://infraestructura.uach.cl/wp-content/uploads/2018/01/ingenieria110331_003-1.jpg",
+        "imagen":"https://diario.uach.cl/wp-content/uploads/2022/03/docenciaFCI.jpg",
         "ButtonCarac":["lg","765px","710px","#9932CC"],
         "informacion":"Los 1.700 m2 de este edificio están destinados a actividades de docencia  Laboratorio de Computación en Ingeniería (LCI), salas de clases, cubículos de estudio, auditorio y salas de postgrado. El nombre es en honor a un destacado académico especialista en el área de Transporte Marítimo e Ingeniería Naval, académico de Ingeniería UACh y secretario académico de la Univ. Técnica del Estado."
 

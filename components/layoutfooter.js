@@ -13,7 +13,7 @@ const menuFooter = () => {
                 <Link href="https://www.uach.cl/sedes-y-campus/informacion-general/campus-miraflores" isExternal>
                     <Button background="none">UACh</Button>
                 </Link>
-                <Link href="https://github.com/CreativeSelf1/INFO104G6" isExternal>
+                <Link href="https://github.com/Lagartin1/INFO104G6-1" isExternal>
                     <Button background="none"> Repositorio Git</Button>
                 </Link>
             </ButtonGroup>
