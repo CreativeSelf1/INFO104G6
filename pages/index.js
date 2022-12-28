@@ -1,14 +1,20 @@
 
-import Buildings from './buildings'
-import Layoutmenu from './layoutmenu'
+import Inicio from './inicio'
+import Head from 'next/head'
 
-export default function Home() {
+
+const Home = () => {
   return (
-    <div class='menu'>
-      <Layoutmenu></Layoutmenu>
-      <div>
-        <Buildings></Buildings>
-      </div>
+    <div class='Home'>
+      <Head>
+        <title>Campus Miraflores</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <main>
+        <Inicio></Inicio>
+      </main>
     </div>
-  )
+
+  );
 }
+export default Home;
