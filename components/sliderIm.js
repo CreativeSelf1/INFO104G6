@@ -48,7 +48,7 @@ const SliderIm = () => {
                     <label for="btn4" class="botonManual"></label>
                 </div>
             </div>
-            <script type="text/javascript">
+            <script type="text/javascript">{counter()}
             </script>
         </Center>
     )
